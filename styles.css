@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+.login-btn {
+    padding: 8px 15px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.hero-text .highlight {
+    color: #ffcc00;
+}
+
+.our-tour {
+    padding: 20px;
+    text-align: center;
+}
+
+.our-tour h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.nature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.nature-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.nature-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.nature-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.nature-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+.nature-card:hover {
+    background-color: yellow;
+    font-size: 18px;
+  }
